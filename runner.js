@@ -40,4 +40,4 @@ function run_day() {
     setTimeout(reload_page,howoftenrechek*60000);
 }
 
-setTimeout(run_day,1000);
+setTimeout(run_day,1000); 
