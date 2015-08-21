@@ -25,7 +25,7 @@ function run_day() {
     var dt = new Date();
     var hours = dt.getHours();
 
-    if(hours>whenstartday&&hours<whenstopday&&$("#timeman-status").html()!='Работаю') {
+    if(hours>=whenstartday&&hours<whenstopday&&$("#timeman-status").html()!='Работаю') {
         click_start();
     }
     if(hours>=whenstopday&&$("#timeman-status").html()=='Работаю') {
